@@ -1,6 +1,9 @@
 🎸 KISS Tribute Web Page
 
-🔗 Live Demo: [View](https://raw.githack.com/Night0509Star/KIss-2.1/refs/heads/main/Kiss.html) on GitHack
+🔗 Live Demo: [View
+ on GitHack](https://raw.githack.com/Night0509Star/KIss-2.1/refs/heads/main/Kiss.html)
+ 
+⚠️ Note: Occasionally, white flashes may appear while scrolling. This is a known issue caused by the gradient and custom scrollbar. Despite multiple attempts (30+), the root cause has not yet been identified.
 
 🎯 Overview
 
@@ -10,13 +13,13 @@ This website is intended as a portfolio piece, showcasing proficiency in:
 
 Responsive web design for multiple devices
 
-Advanced CSS techniques including pseudo-elements, clip-path, and animations
+Advanced CSS techniques, including pseudo-elements, clip-path, and animations
 
 Interactive UI elements such as buttons, collapsibles, and smooth scrolling
 
 Visual storytelling through layout, imagery, and typography
 
-The project has been intensively tested, with daily sessions ranging from 20–50 tests per day. Testing often lasted from 9 AM to 3 PM, ensuring that features worked across desktop, laptop, tablet, and mobile devices. Continuous testing allowed precise error tracking and iterative improvement. While the site functions almost fully on mobile, minor tweaks remain to perfect the experience on smaller screens.
+The project underwent intensive testing, with daily sessions ranging from 20–50 tests per day, sometimes lasting 9 AM to 3 PM. Continuous testing helped ensure that all features functioned across desktop, laptop, tablet, and mobile devices. While the site works almost fully on mobile, minor tweaks remain to perfect the experience on smaller screens.
 
 ✨ Features
 1. Sunset / Metal Gradient Background
@@ -37,7 +40,7 @@ Works across all screen sizes
 
 2. KISS Mask Circles
 
-Each corner of the site displays a circle representing a band member:
+Each corner displays a circle representing a band member:
 
 Starchild
 
@@ -47,7 +50,7 @@ Spaceman
 
 Catman
 
-Masks are created using CSS pseudo-elements, clip-path, and animations:
+Masks are created using pseudo-elements, clip-path, and animations:
 
 .kiss-circle::before {
   content: "";
@@ -58,16 +61,16 @@ Masks are created using CSS pseudo-elements, clip-path, and animations:
   border-radius: 50%;
   animation: pulse 2s infinite;
 }
-
-Circles scale proportionally on smaller screens
-
-Hover effect: glow and subtle scale increase for interactive feedback
-
 .kiss-circle:hover {
   transform: scale(1.05);
   box-shadow: 0 0 15px #ff0000, 0 0 25px #ffd700;
   transition: all 0.3s ease-in-out;
 }
+
+Circles scale proportionally on smaller screens
+
+Hover effect: glow and subtle scale increase for interactive feedback
+
 3. Responsive Layout
 
 Built with CSS Grid and Flexbox to ensure content adapts naturally:
@@ -102,7 +105,7 @@ Maintains the metal aesthetic
 
 5. Collapsible Sections & Smooth Scrolling
 
-Band member bios and song details are wrapped in <details> tags:
+Band member bios and song details use <details> tags:
 
 <details>
   <summary>Paul Stanley – Starchild</summary>
@@ -128,17 +131,22 @@ Enhances the modern aesthetic on desktop/laptop:
   background: #444;
   border-radius: 6px;
 }
+
+⚠️ Known scroll bug: Occasionally, white flashes appear while scrolling due to the gradient and scrollbar. Multiple debugging attempts (30+) were made without success.
+
 🧪 Development & Testing
 
 Tested 20–50 times per day during development
 
-Some days involved long sessions (9 AM – 3 PM), others shorter
+Long sessions from 9 AM to 3 PM, shorter sessions on other days
 
 Continuous testing helped locate errors in CSS and layout, ensuring responsive mask circles and interactive elements
 
 Almost fully functional on mobile; small adjustments still needed
 
 Works perfectly on desktop screens, with responsive layout and animations intact
+
+⚠️ Known issue: White flashes while scrolling appear intermittently, likely due to gradient rendering and custom scrollbar. Still unresolved after multiple debugging attempts.
 
 🛠 Technologies Used
 
@@ -164,9 +172,9 @@ Clone or download the repository:
 
 git clone https://github.com/Night0509Star/KIss-2.1.git
 
-Open Kiss.html (or index.html) in any modern browser
+Open Kiss.html (or index.html) in any modern browser.
 
-Explore all features: gradient background, KISS masks, responsive layout, interactive buttons
+Explore all features: gradient background, KISS masks, responsive layout, interactive buttons.
 
 🎨 Customization
 
@@ -185,14 +193,20 @@ Free to modify code for learning purposes
 KISS logos and images are copyright-protected
 
 💻 Screenshots / Code Snippets
-Example KISS Mask Circle (HTML)
+
+Example KISS Mask Circle (HTML):
+
 <div class="kiss-circle" id="starchild"></div>
-Responsive Grid Layout for Gallery
+
+Responsive Grid Layout for Gallery:
+
 <div class="container gallery">
   <img src="images/kiss1.jpg" alt="KISS Concert">
   <img src="images/kiss2.jpg" alt="Band Members">
 </div>
-Smooth Scroll Navigation
+
+Smooth Scroll Navigation:
+
 <a href="#about">About</a>
 <a href="#music">Music</a>
 <a href="#gallery">Gallery</a>
