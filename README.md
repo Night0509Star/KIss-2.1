@@ -174,7 +174,7 @@ This project is for personal and educational use.
 
 You are free to modify and use the code.
 
-KISS logos and images are copyright protected.
+KISS logos and images are copyright-protected.
 
 Screenshots / Code Snippets
 Example KISS Mask Circle in HTML
