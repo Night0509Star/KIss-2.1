@@ -1,8 +1,7 @@
 🎸 KISS Tribute Web Page
 
-🔗 Live Demo: [View
- on GitHack](https://raw.githack.com/Night0509Star/KIss-2.1/refs/heads/main/Kiss.html)
- 
+🔗 Live Demo: https://raw.githack.com/Night0509Star/KIss-2.1/refs/heads/main/Kiss.html
+
 ⚠️ Note: Occasionally, white flashes may appear while scrolling. This is a known issue caused by the gradient and custom scrollbar. Despite multiple attempts (30+), the root cause has not yet been identified.
 
 🎯 Overview
@@ -13,7 +12,7 @@ This website is intended as a portfolio piece, showcasing proficiency in:
 
 Responsive web design for multiple devices
 
-Advanced CSS techniques, including pseudo-elements, clip-path, and animations
+Advanced CSS techniques including pseudo-elements, clip-path, and animations
 
 Interactive UI elements such as buttons, collapsibles, and smooth scrolling
 
