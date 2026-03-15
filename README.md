@@ -1,6 +1,6 @@
 🎸 KISS Tribute Web Page
 
-🔗 Live Demo: [View on GitHack](https://raw.githack.com/Night0509Star/KIss-2.1/refs/heads/main/Kiss.html)
+🔗 Live Demo: [View](https://raw.githack.com/Night0509Star/KIss-2.1/refs/heads/main/Kiss.html) on GitHack
 
 🎯 Overview
 
@@ -10,13 +10,13 @@ This website is intended as a portfolio piece, showcasing proficiency in:
 
 Responsive web design for multiple devices
 
-Advanced CSS techniques, including pseudo-elements, clip-path, and animations
+Advanced CSS techniques including pseudo-elements, clip-path, and animations
 
 Interactive UI elements such as buttons, collapsibles, and smooth scrolling
 
 Visual storytelling through layout, imagery, and typography
 
-The project has been intensively tested, with daily sessions ranging from 20 to 50 tests per day. Testing often lasted from 9 AM to 3 PM, ensuring that features worked across desktop, laptop, tablet, and mobile devices. Continuous testing allowed precise error tracking and iterative improvement. While the site functions almost fully on mobile, minor tweaks remain to perfect the experience on smaller screens.
+The project has been intensively tested, with daily sessions ranging from 20–50 tests per day. Testing often lasted from 9 AM to 3 PM, ensuring that features worked across desktop, laptop, tablet, and mobile devices. Continuous testing allowed precise error tracking and iterative improvement. While the site functions almost fully on mobile, minor tweaks remain to perfect the experience on smaller screens.
 
 ✨ Features
 1. Sunset / Metal Gradient Background
