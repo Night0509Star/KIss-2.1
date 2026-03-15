@@ -1,22 +1,27 @@
-KISS Tribute Web Page
-Overview
+🎸 KISS Tribute Web Page
 
-The KISS Tribute Web Page is a visually striking homage to the legendary rock band KISS, combining rock-and-roll aesthetics with modern web design. Featuring a sunset-inspired gradient, intricate band member mask elements, and a fully responsive layout, this project showcases both creativity and technical skill in HTML and CSS.
+🔗 Live Demo: [View on GitHack](https://raw.githack.com/Night0509Star/KIss-2.1/refs/heads/main/Kiss.html)
 
-The website is intended as a portfolio piece, demonstrating proficiency in:
+🎯 Overview
 
-Responsive design
+The KISS Tribute Web Page is a visually striking homage to the legendary rock band KISS, combining rock-and-roll aesthetics with modern web design. This project features a sunset-inspired gradient background, intricate band member mask elements, and a fully responsive layout, demonstrating both creativity and technical skill in HTML5 and CSS3.
 
-Advanced CSS techniques (pseudo-elements, clip-path, animations)
+This website is intended as a portfolio piece, showcasing proficiency in:
 
-Interactive UI elements (buttons, collapsibles, smooth scrolling)
+Responsive web design for multiple devices
 
-Visual storytelling through layout and imagery
+Advanced CSS techniques, including pseudo-elements, clip-path, and animations
 
-Features
-1. Sunset/Metal Gradient Background
+Interactive UI elements such as buttons, collapsibles, and smooth scrolling
 
-A unique gradient transitioning from black → red → yellow → white, inspired by metal music aesthetics and KISS's iconic stage presence.
+Visual storytelling through layout, imagery, and typography
+
+The project has been intensively tested, with daily sessions ranging from 20 to 50 tests per day. Testing often lasted from 9 AM to 3 PM, ensuring that features worked across desktop, laptop, tablet, and mobile devices. Continuous testing allowed precise error tracking and iterative improvement. While the site functions almost fully on mobile, minor tweaks remain to perfect the experience on smaller screens.
+
+✨ Features
+1. Sunset / Metal Gradient Background
+
+A dramatic gradient inspired by KISS’s stage aesthetics and metal music:
 
 body {
   background: linear-gradient(135deg, black, red, yellow, white);
@@ -26,13 +31,13 @@ body {
   padding: 0;
 }
 
-Sets the tone and mood of the site
+Sets the mood for the entire site
 
 Works across all screen sizes
 
 2. KISS Mask Circles
 
-Each corner features a circle representing a band member:
+Each corner of the site displays a circle representing a band member:
 
 Starchild
 
@@ -42,7 +47,7 @@ Spaceman
 
 Catman
 
-Masks are created with pseudo-elements, clip-path, and subtle animations:
+Masks are created using CSS pseudo-elements, clip-path, and animations:
 
 .kiss-circle::before {
   content: "";
@@ -54,13 +59,18 @@ Masks are created with pseudo-elements, clip-path, and subtle animations:
   animation: pulse 2s infinite;
 }
 
-Each circle responds to hover with glow and scale effect.
+Circles scale proportionally on smaller screens
 
-Circles scale proportionally on smaller screens, maintaining visual integrity.
+Hover effect: glow and subtle scale increase for interactive feedback
 
+.kiss-circle:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ff0000, 0 0 25px #ffd700;
+  transition: all 0.3s ease-in-out;
+}
 3. Responsive Layout
 
-Designed using CSS Grid and Flexbox, the layout adapts seamlessly:
+Built with CSS Grid and Flexbox to ensure content adapts naturally:
 
 .container {
   display: grid;
@@ -69,7 +79,7 @@ Designed using CSS Grid and Flexbox, the layout adapts seamlessly:
   padding: 20px;
 }
 
-Screen breakpoints:
+Breakpoints:
 
 Device	Width
 Desktop	1400px+
@@ -78,7 +88,7 @@ Tablet	768px
 Mobile	480px and below
 4. Interactive Buttons
 
-KISS-inspired buttons with hover effects, glow, and color transitions:
+KISS-inspired buttons with hover animations:
 
 .button:hover {
   box-shadow: 0 0 10px #ff0000, 0 0 20px #ffcc00;
@@ -86,27 +96,27 @@ KISS-inspired buttons with hover effects, glow, and color transitions:
   transition: all 0.3s ease-in-out;
 }
 
-Clickable feedback enhances user engagement
+Enhances user engagement
 
-Consistent with the metal aesthetic
+Maintains the metal aesthetic
 
 5. Collapsible Sections & Smooth Scrolling
 
-Band member bios and music details use <details> tags:
+Band member bios and song details are wrapped in <details> tags:
 
 <details>
   <summary>Paul Stanley – Starchild</summary>
   <p>Lead singer and rhythm guitarist known for his iconic star makeup.</p>
 </details>
 
-Smooth scrolling applied to internal links for elegant navigation
+Smooth scrolling for internal links:
 
 html {
   scroll-behavior: smooth;
 }
 6. Custom Scrollbar
 
-Enhances modern look on desktop and laptop devices:
+Enhances the modern aesthetic on desktop/laptop:
 
 ::-webkit-scrollbar {
   width: 12px;
@@ -118,66 +128,64 @@ Enhances modern look on desktop and laptop devices:
   background: #444;
   border-radius: 6px;
 }
-Development & Testing
+🧪 Development & Testing
 
-This project underwent rigorous testing, with the site tested 20–50 times per day during development.
+Tested 20–50 times per day during development
 
-Testing sessions often lasted from 9 AM to 3 PM; some days shorter, depending on development needs.
+Some days involved long sessions (9 AM – 3 PM), others shorter
 
-Continuous testing ensured all features function as intended and helped identify errors in the code.
+Continuous testing helped locate errors in CSS and layout, ensuring responsive mask circles and interactive elements
 
-The site is almost fully functional on mobile devices, with minor adjustments still needed.
+Almost fully functional on mobile; small adjustments still needed
 
-Works perfectly on desktop screens of all sizes, ensuring responsive layout and mask elements scale correctly.
+Works perfectly on desktop screens, with responsive layout and animations intact
 
-Continuous testing was a critical part of the development process, allowing me to locate errors precisely and implement reliable solutions.
+🛠 Technologies Used
 
-Technologies Used
+HTML5 – Structure and semantic content
 
-HTML5
+CSS3 – Flexbox, Grid, pseudo-elements, clip-path, animations
 
-CSS3 (Flexbox, Grid, Pseudo-elements, Clip-path, Animations)
+Google Fonts – Metal Mania
 
-Google Fonts: Metal Mania
+Media Queries – Device responsiveness
 
-Media queries for responsiveness
+CSS Variables – Easy theming (--accent-color, --border-color)
 
-CSS variables for easy theming (--accent-color, --border-color)
-
-Installation
+📂 File Structure
+/project-root
+│── index.html          # Main HTML file
+│── style.css           # CSS styling
+│── images/             # Band masks, gallery images, backgrounds
+│── README.md           # Documentation
+🚀 Installation
 
 Clone or download the repository:
 
-git clone https://github.com/yourusername/kiss-tribute.git
+git clone https://github.com/Night0509Star/KIss-2.1.git
 
-Open index.html in any modern browser.
+Open Kiss.html (or index.html) in any modern browser
 
-Explore all features: gradient background, KISS masks, responsive layout, and interactive buttons.
+Explore all features: gradient background, KISS masks, responsive layout, interactive buttons
 
-Customization
+🎨 Customization
 
-Background Gradient: Modify in body selector
+Background Gradient: Modify in the body selector
 
-Button Colors: Change CSS variables --accent-color and --border-color
+Button Colors: Adjust CSS variables --accent-color and --border-color
 
-KISS Mask Circles: Adjust .kiss-circle pseudo-elements to tweak mask graphics and animations
+KISS Mask Circles: Edit .kiss-circle pseudo-elements to tweak mask graphics or animations
 
-File Structure
-/project-root
-│── index.html
-│── style.css
-│── images/       # Band member masks, gallery images, backgrounds
-│── README.md
-License
+⚖ License
 
-This project is for personal and educational use.
+Personal and educational use only
 
-You are free to modify and use the code.
+Free to modify code for learning purposes
 
-KISS logos and images are copyright-protected.
+KISS logos and images are copyright-protected
 
-Screenshots / Code Snippets
-Example KISS Mask Circle in HTML
+💻 Screenshots / Code Snippets
+Example KISS Mask Circle (HTML)
 <div class="kiss-circle" id="starchild"></div>
 Responsive Grid Layout for Gallery
 <div class="container gallery">
