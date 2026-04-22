@@ -1,4 +1,4 @@
-# # 🎸 KISS Tribute Web Page
+# 🎸 KISS Tribute Web Page
 
 A visually striking homage to the legendary rock band KISS, combining rock-and-roll aesthetics with modern web design.
 
@@ -131,4 +131,3 @@ This project showcases:
 - Comprehensive web documentation
 
 ## 📞 Support
-**Status**: Active and Deployed ✅
